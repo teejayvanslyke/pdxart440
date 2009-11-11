@@ -1,0 +1,122 @@
+body {
+  font-family: Helvetica, Arial, Sans-serif;
+  font-size: 12px;
+  margin: 5.0em;
+}
+
+a {
+  color: #666;
+}
+
+p {
+  line-height: 1.5em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  padding: 0;
+  margin: 0;
+  letter-spacing: -0.05em;
+  font-weight: normal;
+}
+
+#header {
+  border-bottom: 0.1em solid #ccc;
+  padding-bottom: 1.0em;
+  margin-bottom: 2.0em;
+}
+
+h1 {
+  padding-right: 0.5em;
+  float:left;
+  font-size: 10.0em;
+  color: #00a;
+}
+
+h1 a {
+  color: #000;
+  text-decoration: none;
+}
+
+h2 {
+  font-size: 4.0em;
+  line-height: 1.0em;
+}
+
+h3 {
+  font-size: 2.0em;
+}
+
+h4 {
+  font-size: 4.0em;
+}
+
+h5 {
+  font-size: 2.0em;
+  margin: 1.0em 0;
+}
+
+ul.posts {
+  margin: 2.0em 0;
+}
+
+ul.posts li {
+  letter-spacing: -0.05em;
+}
+
+ul.posts li a {
+  color: #000;
+  font-size: 2.0em;
+  text-decoration: none;
+}
+
+ul.posts li span {
+  color: #ccc;
+  font-size: 2.0em;
+  float: right;
+}
+
+ul.posts li div.content {
+  letter-spacing: 0em;
+  font-size: 2.0em;
+  color: #666;
+}
+
+ul.posts li div.content ul li {
+  list-style-type: circle;
+  margin-left: 1.0em;
+  padding: 0.5em 0;
+}
+
+ul.posts li div.content p {
+  padding: 0.5em 0;
+  font-size: 0.5em;
+}
+
+ul#nav {
+  padding: 1.0em 0;
+}
+
+ul#nav li {
+  padding-right: 1.0em;
+  display: inline;
+  font-size: 2.0em;
+}
+
+ul#nav li a {
+  color: #00a;
+  text-decoration: none;
+}
+
+
+#twitter {
+  float: right;
+  padding: 1em;
+}
+
+table th, td {
+  padding: 1.0em;
+}
+
+table th {
+  font-weight: bold;
+}

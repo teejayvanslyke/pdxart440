@@ -1,0 +1,26 @@
+---
+layout: default
+title: Resources
+---
+
+h5. Technologies
+
+* Git
+* Ruby
+* Ruby on Rails
+* Jekyll
+
+h5. Web Services
+
+* GitHub
+* Pivotal Tracker
+* Basecamp
+* Mockingbird
+
+h5. Development Process
+
+h5. Design
+
+h5. Best Practices
+
+

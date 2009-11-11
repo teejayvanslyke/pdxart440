@@ -1,0 +1,16 @@
+---
+layout: default
+title: Lectures
+---
+
+<ul class="lectures">
+  {% for lecture in site.lectures %}
+  <li>
+  <a href="{{ lecture.url }}">{{ lecture.title}}</a><span>{{ lecture.date | date_to_string }}</span>
+  <div class="content">
+    {{ lecture.content}}
+  </div>
+  </li>
+  {% endfor %}
+</ul>
+
