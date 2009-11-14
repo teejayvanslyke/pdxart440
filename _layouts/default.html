@@ -8,12 +8,13 @@
     <script type="text/javascript" src="/javascripts/application.js"></script>
   </head>
   <body>
-    <div id="header">
-      <div class="left">
-        <h1><a href="/index.html">A440</a></h1>
-        <h4>{{ page.title }}</h4>
+    <div class="container">
+      <div id="header">
+        <div class="rainbowify">*******</div>
+        <h1><a href="/index.html">440</a> 
+        </h1>
       </div>
-      <div class="right">
+      <div id="subheader">
         <h2>Interactive Team</h2>
         <h3>At Portland State University Winter 2010, with <span>T.J. VanSlyke</span>.</h3>
         <ul id="nav">
@@ -25,8 +26,12 @@
         </ul>
       </div>
     </div>
-    <div id="body">
-      {{ content }}
+    <div class="container">
+      <div id="body">
+        <h4>{{ page.title }}</h4>
+        {{ content }}
+        <div style="clear:both;"></div>
+      </div>
     </div>
   </body>
 

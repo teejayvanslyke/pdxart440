@@ -1,27 +1,33 @@
 $(function() {
 
-  var COLORS = [ '#a839b2', '#ff0071', '#acd030', '#58aa00', '#00aa78', '#0074ae' ];
+  var COLORS = [ '#ff0071',  '#acd030', '#58aa00', '#00aa78', '#0074ae',  ];
 
-  $.fn.fadeTo = function(color, duration, callback) {
+  $.fn.fadeTo = function(color, duration, offset, callback) {
     var h1 = $(this);
     var clone = h1.clone();
     clone.hide();
-    clone.find('a').css({
+    clone.css({
       color:    color
     });
     clone.css({
       position: 'absolute',
-      top:      ''+ h1.position().top + 'px',
-      left:     ''+ h1.position().left + 'px'
+      top:      ''+ (h1.position().top + offset.y) + 'px',
+      left:     ''+ (h1.position().left + offset.x) + 'px'
     });
     $('#header').append(clone);
+    $(window).resize(function() {
+      clone.css({
+        top:      ''+ (h1.position().top + offset.y) + 'px',
+        left:     ''+ (h1.position().left + offset.x) + 'px'
+      });
+    });
     clone.fadeIn(duration, callback);
   },
 
   $.fn.nextColor = function(colors, duration) {
     if (colors.length == 0) return;
     var color = colors.pop();
-    $(this).fadeTo(color, duration, function() {
+    $(this).fadeTo(color, duration, {x: -20, y:20}, function() {
       $(this).nextColor(colors, duration);
     });
   };
@@ -29,11 +35,12 @@ $(function() {
   $.fn.rainbowify = function() {
     $(this).each(function() { 
       var element = $(this);
-      $(element).nextColor(COLORS, 5000);
+      $(element).nextColor(COLORS, 1);
     });
   };
 
-  $('h1').rainbowify();
+  $('.rainbowify').rainbowify();
+
 
 
 });
