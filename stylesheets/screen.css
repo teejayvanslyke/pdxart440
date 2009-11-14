@@ -20,20 +20,34 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header {
-  border-bottom: 0.1em solid #ccc;
-  padding-bottom: 1.0em;
+  padding-bottom: 2.0em;
   margin-bottom: 2.0em;
 }
 
+#header .left {
+  float: left;
+}
+
+#header .right {
+  float: left;
+  padding-top: 2.0em;
+  border-bottom: 0.1em solid #ccc;
+}
+
+#body {
+  clear: both;
+}
+
 h1 {
-  padding-right: 0.5em;
+  padding-right: 0.3em;
   float:left;
-  font-size: 10.0em;
+  font-size: 12.0em;
+  line-height:0.5em;
   color: #00a;
 }
 
 h1 a {
-  color: #000;
+  color: #fff;
   text-decoration: none;
 }
 
@@ -103,8 +117,18 @@ ul#nav li {
 }
 
 ul#nav li a {
-  color: #00a;
+  color: #aaa;
   text-decoration: none;
+}
+
+ul#nav li a:hover {
+  color: #000;
+  border-bottom: 0.5em solid #aaa;
+}
+
+ul#nav li a.selected {
+  color: #000;
+  border-bottom: 0.5em solid #000;
 }
 
 
