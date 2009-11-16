@@ -1,3 +1,4 @@
+/*
 $(function() {
 
   var COLORS = [ '#ff0071',  '#acd030', '#58aa00', '#00aa78', '#0074ae',  ];
@@ -7,10 +8,10 @@ $(function() {
     var clone = h1.clone();
     clone.hide();
     clone.css({
-      color:    color
     });
     clone.css({
       position: 'absolute',
+      color:    color,
       top:      ''+ (h1.position().top + offset.y) + 'px',
       left:     ''+ (h1.position().left + offset.x) + 'px'
     });
@@ -21,7 +22,8 @@ $(function() {
         left:     ''+ (h1.position().left + offset.x) + 'px'
       });
     });
-    clone.fadeIn(duration, callback);
+    clone.show();
+    callback.call($(this));
   },
 
   $.fn.nextColor = function(colors, duration) {
@@ -44,3 +46,4 @@ $(function() {
 
 
 });
+*/
