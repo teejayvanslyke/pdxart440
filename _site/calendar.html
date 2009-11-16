@@ -32,9 +32,26 @@
         
 <iframe src="http://www.google.com/calendar/embed?title= &amp;showTz=0&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=02r92f5i7udi13co36ao1fel2s%40group.calendar.google.com&amp;color=%2328754E&amp;ctz=America%2FLos_Angeles" style=" border-width:0 " width="800" height="600" frameborder="0" scrolling="no"></iframe>
 
-        <div style="clear:both;"></div>
+        <div style="clear:both;padding-top:4em">
+        <div id="disqus_thread"></div><script type="text/javascript" src="http://disqus.com/forums/pdxart440/embed.js"></script><noscript><a href="http://disqus.com/forums/pdxart440/?url=ref">View the discussion thread.</a></noscript><a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+        </div>
       </div>
     </div>
+
+<script type="text/javascript">
+//<![CDATA[
+(function() {
+	var links = document.getElementsByTagName('a');
+	var query = '?';
+	for(var i = 0; i < links.length; i++) {
+	if(links[i].href.indexOf('#disqus_thread') >= 0) {
+		query += 'url' + i + '=' + encodeURIComponent(links[i].href) + '&';
+	}
+	}
+	document.write('<script charset="utf-8" type="text/javascript" src="http://disqus.com/forums/pdxart440/get_num_replies.js' + query + '"></' + 'script>');
+})();
+//]]>
+</script>
   </body>
 
 </html>
