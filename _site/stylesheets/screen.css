@@ -60,7 +60,6 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
   text-align:left;
   font-size: 150px;
-  color: #00a;
   margin-bottom: -0.1em;
 }
 
@@ -125,7 +124,6 @@ ul.posts li div.content {
 }
 
 ul li {
-  list-style-type: circle;
   padding: 0.5em 0;
   margin-left: 1.0em;
 }
