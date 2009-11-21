@@ -1,0 +1,90 @@
+2009.01.05 RFP/seeking clients
+	Example RFP
+	Determining whether the project is a good fit
+		Do you have adequate resources, or would you need to outsource?
+		Does the client have upfront funding, or are they bootstrapped looking to offset with equity?
+	Why creative work is different from other kinds of work
+		Creative work is never "complete"; only "sufficiently valuable".
+2009.01.07 Contracts (fixed versus hourly)
+	Pitfalls of a fixed-bid contract
+		Possibility of unending iterations
+		Client is never pleased
+	Drafting a contract
+		A contract template
+2009.01.12 Team roles
+	Myers-Briggs
+		Online test:  http://www.humanmetrics.com/cgi-win/JTypes2.asp
+		Why personality type can matter, but why it usually isn't taken into account.
+		Break class into four teams of four.
+	Specialization versus generalization
+		Bus number
+		Inter-team awareness
+2009.01.14 Discovery
+	Brainstorming / mind-mapping
+		Brainstorming is disorganized.
+		Free mind-mapping tools.
+		There are bad ideas, but this isn't the time to decide that.
+2009.01.19 Definition
+	Brainstorm refinement and organization
+	Statement of purpose
+		Example statement of purpose
+		Assignment: author a statement of purpose for five well-known web applications
+2009.01.21 Agile / Scrum
+	What is Agile?
+		Agile Manifesto
+			We are uncovering better ways of developing
+			software by doing it and helping others do it.
+			Through this work we have come to value:
+
+			Individuals and interactions over processes and tools
+			Working software over comprehensive documentation
+			Customer collaboration over contract negotiation
+			Responding to change over following a plan
+
+			That is, while there is value in the items on
+			the right, we value the items on the left more. 
+	What is Scrum?
+		Diagram:  http://upload.wikimedia.org/wikipedia/commons/d/d1/ScrumLargeLabelled.png
+		Roles
+			Scrum master
+			Product owner
+			Team
+		Standup
+	Process pragmatism versus dogmatism
+		Do what works
+		Hold retrospectives to refine your process
+2009.01.26 Estimation 
+	Point-based systems
+		Linear versus exponential versus Fibonacci
+		Why linear provides false optimism
+	Incremental estimation adjustment
+		How to provide an hours-per-point figure to project an estimate for the entire project
+2009.01.28 Wireframes
+	Using Mockingbird
+	The paper prototype
+2009.02.02 Mockups
+	Providing an accurate visual representation
+	Greyscale first
+		Saves time to allow for multiple mockup options
+2009.02.04 Jekyll/S3/Cloud computing
+2009.02.09 Git (versus other SCM's)
+	Version Control For Designers
+		http://hoth.entp.com/output/git_for_designers.html
+2009.02.11 HTML
+	Goodbye, Dreamweaver
+	Survey HTML skills
+	Cheat sheet
+		http://www.webmonkey.com/reference/HTML_Cheatsheet
+2009.02.16 CSS
+	Cheat sheet
+		http://lesliefranke.com/files/reference/csscheatsheet.html
+2009.02.18 Deployment / release schedules / release protocols / incremental releases
+	Three stages of production
+		Build
+			Latest development work, may be unstable or buggy
+		Staging
+			Latest tested work for approval by client
+		Production
+			Live site
+
+
