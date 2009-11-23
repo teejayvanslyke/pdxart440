@@ -5,12 +5,22 @@
 		Does the client have upfront funding, or are they bootstrapped looking to offset with equity?
 	Why creative work is different from other kinds of work
 		Creative work is never "complete"; only "sufficiently valuable".
+	* Assignment
+		Read example RFP: http://74.125.155.132/search?q=cache:uNMVNPFlDbUJ:www.mrsc.org/Subjects/InfoServ/webdesignrfp.aspx+web+design+rfps&cd=1&hl=en&ct=clnk&gl=us&client=firefox-a
+	* Lab
+		Start a Jekyll blog and deploy it to the class's S3 bucket.
 2009.01.07 Contracts (fixed versus hourly)
 	Pitfalls of a fixed-bid contract
 		Possibility of unending iterations
 		Client is never pleased
 	Drafting a contract
 		A contract template
+	* Lab
+		Break into groups of four according to which RFP was read as an assignment
+			What is the pricing model of the RFP?
+			Does the RFP have a statement of purpose?
+				If so, what is it?
+				If not, write one.
 2009.01.12 Team roles
 	Myers-Briggs
 		Online test:  http://www.humanmetrics.com/cgi-win/JTypes2.asp
@@ -19,16 +29,21 @@
 	Specialization versus generalization
 		Bus number
 		Inter-team awareness
+	* Lab
+		Create your team's blog and its first entry
+			- Team members
+			- Myers-Briggs results
 2009.01.14 Discovery
 	Brainstorming / mind-mapping
 		Brainstorming is disorganized.
 		Free mind-mapping tools.
 		There are bad ideas, but this isn't the time to decide that.
+	* Lab
+		Create a mind map or brainstorm outline for your team's example RFP.
 2009.01.19 Definition
 	Brainstorm refinement and organization
 	Statement of purpose
 		Example statement of purpose
-		Assignment: author a statement of purpose for five well-known web applications
 2009.01.21 Agile / Scrum
 	What is Agile?
 		Agile Manifesto
@@ -66,6 +81,7 @@
 	Providing an accurate visual representation
 	Greyscale first
 		Saves time to allow for multiple mockup options
+		Still provides overall look-and -feel and allows proper collaboration to decide upon branding colors
 2009.02.04 Jekyll/S3/Cloud computing
 2009.02.09 Git (versus other SCM's)
 	Version Control For Designers
